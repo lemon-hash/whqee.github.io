@@ -10,9 +10,10 @@ layout: compress
 <!DOCTYPE html>
 
 {% capture prefer_mode %}
-  {% if site.theme_mode != "dual" %}
+  mode="{{ site.theme_mode }}"
+  <!-- {% if site.theme_mode != "dual" %}
     mode="{{ site.theme_mode }}"
-  {% endif %}
+  {% endif %} -->
 {% endcapture %}
 
 <html lang="en" {{ prefer_mode }} >
