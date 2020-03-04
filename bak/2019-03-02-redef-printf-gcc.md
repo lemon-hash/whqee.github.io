@@ -5,6 +5,7 @@ date: 2019-03-02 18:55:00 +800
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img:  # Add image post (optional)
 fig-caption: # Add figcaption (optional)
+categories: [Blogging]
 tags: [stm32,嵌入式] # add tag
 ---
 

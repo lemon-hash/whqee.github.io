@@ -91,6 +91,7 @@ $tab-count: {{ site.data.tabs | size }};
   background: var(--sidebar-bg);
   a {
     @include sidebar-icon;
+    color: var(--sidebar-nav-link);
   }
   .sidebar-bottom {
     .icon-border+a { // the icon behide mode-toggle
@@ -107,12 +108,13 @@ $tab-count: {{ site.data.tabs | size }};
     height: $tab-height;
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: var(--sidebar-nav-link-hover);
       }
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        // color: #fcfcfc;
+        color: var(--sidebar-nav-link-hover);
       }
     }
   }
@@ -173,12 +175,13 @@ $tab-count: {{ site.data.tabs | size }};
     }
 
     a:hover, #mode-toggle-wrapper>i:hover {
-      color: #fff;
+      color: var(--sidebar-nav-link-hover);
     }
 
     #mode-toggle-wrapper {
       i {
         @include sidebar-icon;
+        color: var(--sidebar-nav-link);
         margin-right: 0;
         font-size: 1.05rem;
         text-align: center;
@@ -253,12 +256,12 @@ $tab-count: {{ site.data.tabs | size }};
 #site-title {
   text-align: center;
   a {
-    color: #b6b6b6;
+    color: var(--site-title);
     font-weight: 900;
     font-size: 1.5rem;
     letter-spacing: .5px;
     &:hover {
-      color: #fff;
+      color: var(--sidebar-nav-link-hover);
       text-decoration: none;
     }
   }

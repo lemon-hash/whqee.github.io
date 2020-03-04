@@ -46,11 +46,12 @@
 
   // --sidebar-bg: radial-gradient(
   //   circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%);
-
-  --sidebar-bg: radial-gradient(
-    circle, rgb(11, 47, 77) 0%, rgb(17, 15, 16) 100%);
-
-  --nav-cursor-color: #fcfcfc;
+  --sidebar-bg: #fefefe;
+  // --nav-cursor-color: #fcfcfc;
+  --nav-cursor-color: rgb(47, 49, 48);
+  --sidebar-nav-link: rgb(87, 85, 85);
+  --sidebar-nav-link-hover: rgb(3, 3, 3);
+  --site-title: rgb(73, 73, 73);
 
   /* Topbar */
 
