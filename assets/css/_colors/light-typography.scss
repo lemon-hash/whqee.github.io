@@ -47,9 +47,10 @@
   // --sidebar-bg: radial-gradient(
   //   circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%);
 
-  --sidebar-bg: #fafafa;
+  --sidebar-bg: radial-gradient(
+    circle, rgb(11, 47, 77) 0%, rgb(17, 15, 16) 100%);
 
-  --nav-cursor-color: gray;
+  --nav-cursor-color: #fcfcfc;
 
   /* Topbar */
 
