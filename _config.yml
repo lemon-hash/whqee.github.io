@@ -126,6 +126,7 @@ defaults:
     values:
       tab_active: Tags
       location: Tag
+      layout: tag
       breadcrumb:
         -
           label: Home
@@ -139,6 +140,7 @@ defaults:
     values:
       tab_active: Categories
       location: Category
+      layout: category
       breadcrumb:
         -
           label: Home
